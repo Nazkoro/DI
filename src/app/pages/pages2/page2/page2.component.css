@@ -1,5 +1,6 @@
 table {
   width: 100%;
+  background-color: darkcyan;
 }
 
 th.mat-sort-header-sorted {

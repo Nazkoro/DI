@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Page3Component } from './page3.component';
 import {MatTableModule} from "@angular/material/table";
 import {MatPaginatorModule} from "@angular/material/paginator";
+import {ThirdService} from "../../services/third.service";
 
 
 
@@ -16,6 +17,7 @@ import {MatPaginatorModule} from "@angular/material/paginator";
     CommonModule,
     MatTableModule,
     MatPaginatorModule
-  ]
+  ],
+  providers: [{provide: ThirdService, useClass: ThirdService}]
 })
 export class Page3Module { }

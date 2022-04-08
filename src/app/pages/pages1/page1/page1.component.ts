@@ -21,5 +21,4 @@ export class Page1Component implements AfterViewInit {
     // @ts-ignore
     this.dataSource.paginator = this.paginator;
   }
-
 }

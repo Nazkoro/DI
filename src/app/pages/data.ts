@@ -1,10 +1,4 @@
-export interface userData {
-  name: string;
-  position: number;
-  weight: number;
-  symbol: string;
-}
-
+import {userData} from "./interface/serviceInterface";
 export const ELEMENT_DATA: userData[] = [
   {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
   {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
@@ -27,8 +21,8 @@ export const ELEMENT_DATA: userData[] = [
   {position: 19, name: 'Fluorine', weight: 18.9984, symbol: 'F'},
   {position: 20, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
 ];
+
 // export let sampleData: Object[] =  [
-//
 //   { taskID: 2, taskName: 'Plan timeline',  duration: 5, progress: 100, priority: 'Normal', approved: false },
 //   { taskID: 3, taskName: 'Plan budget',duration: 5, progress: 100, priority: 'Low', approved: true },
 //   { taskID: 4, taskName: 'Allocate resources',  duration: 5, progress: 100, priority: 'Critical', approved: false },
